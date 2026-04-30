@@ -1,0 +1,43 @@
+.cc-avatar {
+  @apply grid justify-items-center text-white content-center bg-primary_100 rounded-full overflow-hidden;
+}
+
+.cc-avatar--image {
+  @apply object-contain bg-transparent !important;
+}
+
+.cc-avatar--stroke {
+  @apply border-dashed border-2;
+}
+
+.cc-avatar--16 {
+  @apply h-4 w-4 font-medium text-[0.375rem];
+}
+
+.cc-avatar--24 {
+  @apply h-6 w-6 font-semibold text-[0.5rem];
+}
+
+.cc-avatar--32 {
+  @apply h-8 w-8 font-semibold text-xs;
+}
+
+.cc-avatar--40 {
+  @apply h-9 w-9 md:h-10 md:w-10 font-semibold text-sm;
+}
+
+.cc-avatar--48 {
+  @apply h-12 w-12 font-semibold text-base;
+}
+
+.cc-avatar--89 {
+  @apply h-[89px] w-[89px] font-semibold text-base;
+}
+
+.cc-avatar--97 {
+  @apply h-[97px] w-[97px] font-semibold text-base;
+}
+
+.cc-avatar--160 {
+  @apply w-24 h-24 md:w-40 md:h-40  font-semibold text-base;
+}

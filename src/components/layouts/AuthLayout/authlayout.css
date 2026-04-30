@@ -1,0 +1,15 @@
+.attachment {
+  position: absolute;
+  bottom: 0;
+  right: 4px;
+  z-index: 2;
+}
+
+@media (max-width: 768px) {
+  .attachment {
+    position: absolute;
+    top: 0;
+    right: 4px;
+    width: 20%;
+  }
+}

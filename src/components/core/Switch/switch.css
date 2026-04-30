@@ -1,0 +1,23 @@
+.cc-toggle--20 {
+  @apply h-5 w-[38px] !important;
+}
+
+.cc-toggle--24 {
+  @apply h-6 w-[46px] !important;
+}
+
+.cc-toggle--inner-20 {
+  @apply h-4 w-4 !important;
+}
+
+.cc-toggle--inner-24 {
+  @apply h-[18px] w-[18px] !important;
+}
+
+.cc-toggle--move-20 {
+  @apply translate-x-[18px] !important;
+}
+
+.cc-toggle--move-24 {
+  @apply translate-x-6 !important;
+}

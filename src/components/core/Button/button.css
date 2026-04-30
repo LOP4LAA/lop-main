@@ -1,0 +1,31 @@
+.cc-button {
+  @apply flex items-center justify-center rounded-[8px] font-medium border cursor-pointer;
+}
+
+.cc-button--primary {
+  @apply bg-primary_100 text-sm font-normal hover:bg-primary_100/80  text-white;
+}
+
+.cc-button--transparent {
+  @apply text-base border-neutral-200;
+}
+
+.cc-button--32 {
+  @apply rounded py-1.5 px-3 text-xs;
+}
+
+.cc-button--40 {
+  @apply rounded-lg py-2 px-4 text-sm;
+}
+
+.cc-button--44 {
+  @apply rounded-lg py-2.5 px-5 text-base;
+}
+
+.cc-button--48 {
+  @apply rounded-lg py-3 px-6 text-base;
+}
+
+.cc-button--56 {
+  @apply rounded-lg py-4 px-8 text-base;
+}
